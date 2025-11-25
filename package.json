@@ -1,0 +1,39 @@
+{
+  "name": "los-bio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.26.1",
+    "styled-components": "^6.1.13",
+    "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@types/styled-components": "^5.1.34",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitest/ui": "^4.0.13",
+    "happy-dom": "^20.0.10",
+    "jsdom": "^27.2.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.3",
+    "vite-plugin-svgr": "^4.2.0",
+    "vitest": "^4.0.13"
+  }
+}
