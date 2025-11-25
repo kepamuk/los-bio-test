@@ -451,7 +451,6 @@ const GalleryMain = styled.div`
 
 const GalleryThumbnails = styled.div`
   display: flex;
-  overflow-x: auto;
   gap: 1px;
   width: 100%;
   max-width: 433px;
